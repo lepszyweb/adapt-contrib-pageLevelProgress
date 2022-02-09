@@ -18,40 +18,40 @@
               "properties": {
                 "pageLevelProgress": {
                   "type": "string",
-                  "title": "Page Level Progress",
-                  "default": "Page sections",
+                  "title": "Postęp na poziomie strony",
+                  "default": "Sekcje strony",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "pageLevelProgressIndicatorBar": {
                   "type": "string",
-                  "title": "Page Level Progress indicator bar",
-                  "default": "Page progress. Use this to listen to the list of regions in this topic and whether they're completed. You can jump directly to any that are incomplete or which sound particularly interesting. {{percentageComplete}}%",
+                  "title": "Wskaźnik postępu na poziomie strony",
+                  "default": "Postęp strony. Użyj tego, aby posłuchać listy regionów w tym temacie i czy są one ukończone. Możesz przejść bezpośrednio do tych, które są niekompletne lub brzmią szczególnie interesująco. {{percentageComplete}}%",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "pageLevelProgressMenuBar": {
                   "type": "string",
-                  "title": "Page Level Progress menu bar",
-                  "default": "Page completion {{percentageComplete}}%",
+                  "title": "Postęp na poziomie strony menu bar",
+                  "default": "Ukończenie strony {{percentageComplete}}%",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "pageLevelProgressEnd": {
                   "type": "string",
-                  "title": "Page Level Progress end",
-                  "default": "You have reached the end of the list of page sections.",
+                  "title": "Postęp na poziomie strony end",
+                  "default": "Dotarłeś do końca listy sekcji strony.",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "optionalContent": {
                   "type": "string",
-                  "title": "Optional content",
-                  "default": "Optional content",
+                  "title": "Treść opcjonalna",
+                  "default": "Treść opcjonalna",
                   "_adapt": {
                     "translatable": true
                   }
@@ -62,28 +62,28 @@
         },
         "_pageLevelProgress": {
           "type": "object",
-          "title": "Page Level Progress",
+          "title": "Postęp na poziomie strony",
           "default": {},
           "properties": {
             "_isEnabled": {
               "type": "boolean",
-              "title": "Enable Page Level Progress",
+              "title": "Włącz pasek postępu na poziomie strony",
               "default": true
             },
             "_showPageCompletion": {
               "type": "boolean",
-              "title": "Include overall page completion",
-              "description": "Controls whether the progress calculations are based on all components - or only those that are set to be displayed in Page Level Progress",
+              "title": "Uwzględnij ogólne ukończenie strony",
+              "description": "Kontroluje, czy obliczenia postępu są oparte na wszystkich komponentach - czy tylko na tych, które są ustawione do wyświetlania w pasku postępu na poziomie strony",
               "default": true
             },
             "_isCompletionIndicatorEnabled": {
               "type": "boolean",
-              "title": "Show inline completion indicator",
+              "title": "Pokaż śródliniowy wskaźnik ukończenia",
               "default": false
             },
             "_isShownInNavigationBar": {
               "type": "boolean",
-              "title": "Show progress in the navigation bar",
+              "title": "Pokaż postęp na pasku nawigacyjnym",
               "default": true
             }
           }
